@@ -7,8 +7,8 @@ int main(){
 
 	cout<<"\tDaftar Menu"<<endl;
 	cout<<"======================================\n";
-	cout<<"1. Ayam goreng (Rp 17.000)"<<endl;
-	cout<<"2. Ayam bakar  (Rp 21.000)"<<endl;
+	cout<<"1. Ayam  goreng (Rp 17.000)"<<endl;
+	cout<<"2. Ayam  bakar  (Rp 21.000)"<<endl;
 	cout<<"======================================\n";
 	cout<<"Pilih Menu : ";
 	cin>>menu;
