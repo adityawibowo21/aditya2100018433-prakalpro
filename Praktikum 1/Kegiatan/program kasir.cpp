@@ -3,27 +3,27 @@ using namespace std;
 
 int main(){	
 	int goreng=17000 ,bakar=21000;
-	int menu, jumlah,b,diskon,total;
+	int menu, jumlah,jb,diskon,total;
 
 	cout<<"\tDaftar Menu"<<endl;
 	cout<<"======================================\n";
-	cout<<"1. Ayam  goreng (Rp 17.000)"<<endl;
-	cout<<"2. Ayam  bakar  (Rp 21.000)"<<endl;
+	cout<<"1. Ayam goreng (Rp 17.000)"<<endl;
+	cout<<"2. Ayam bakar  (Rp 21.000)"<<endl;
 	cout<<"======================================\n";
 	cout<<"Pilih Menu : ";
 	cin>>menu;
 	
 	if (menu==1){
 		cout<<"Jumlah yang dibeli : "; 
-		cin>>b;
-		jumlah = goreng*b;
+		cin>>jb;
+		jumlah = goreng*jb;
 		cout<<"======================================\n";
 		cout<<"Total Bayar Rp."<<jumlah<<endl;
 		cout<<"======================================\n";
 	}else{
 		cout<<"Jumlah yang dibeli : "; 
-		cin>>b;
-		jumlah = bakar*b;
+		cin>>jb;
+		jumlah = bakar*jb;
 		cout<<"\n======================================\n";
 		cout<<"Total Bayar Rp."<<jumlah<<endl;
 		cout<<"======================================\n";
